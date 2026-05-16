@@ -1,5 +1,5 @@
 {
-  "name": "Mani_f44",
+  "name": "swift-hub-c1e86b",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "Mani_f44",
+      "label": "swift-hub-c1e86b",
       "protocol": "http",
       "onAutoForward": "silent"
     }
